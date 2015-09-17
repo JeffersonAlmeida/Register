@@ -8,11 +8,11 @@ import butterknife.ButterKnife.ViewBinder;
 public class MainActivity$$ViewBinder<T extends com.hanzo.register.MainActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131230720, "field 'text1'");
-    target.text1 = finder.castView(view, 2131230720, "field 'text1'");
+    view = finder.findRequiredView(source, 2131296257, "field 'linearLayout'");
+    target.linearLayout = finder.castView(view, 2131296257, "field 'linearLayout'");
   }
 
   @Override public void unbind(T target) {
-    target.text1 = null;
+    target.linearLayout = null;
   }
 }

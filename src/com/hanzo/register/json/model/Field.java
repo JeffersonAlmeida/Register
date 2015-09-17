@@ -1,4 +1,4 @@
-package com.hanzo.register.model;
+package com.hanzo.register.json.model;
 
 import java.util.List;
 

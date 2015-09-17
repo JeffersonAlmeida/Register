@@ -22,6 +22,7 @@ public final class User {
 		this.gender = builder.gender;
 		this.birthday = builder.birthday;
 		this.state = builder.state;
+		
 	}
 	
 	public Long getId() {
@@ -54,6 +55,10 @@ public final class User {
 	
 	@Override
 	public String toString() {
+		return getFullName();
+	}
+	
+	public String toStr() {
 		return "User [id=" + id + ", fullName=" + fullName + ", email=" + email
 				+ ", cpf=" + cpf + ", phone=" + phone + ", password="
 				+ password + ", gender=" + gender + ", birthday=" + birthday

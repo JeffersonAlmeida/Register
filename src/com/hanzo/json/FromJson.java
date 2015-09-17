@@ -8,7 +8,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
-import com.hanzo.register.model.Field;
+import com.hanzo.register.json.model.Field;
 
 public class FromJson {
 
